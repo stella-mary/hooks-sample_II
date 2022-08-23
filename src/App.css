@@ -1,0 +1,66 @@
+.maincontainer{
+background-color: black;
+width: 100vh;
+height: 100vh;
+}
+
+.form{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 60%;
+}
+
+.form > input {
+  background-color: transparent;
+  outline:0px none;
+  border: none;
+  border-bottom: solid 2px;
+  border-bottom-color: green;
+  padding-bottom: 5px;
+  font-family: cursive;
+}
+
+.container{
+  margin-top: 20%;
+  margin-left: 10%;
+}
+
+.form > span{
+  font-family: cursive;
+  font-size: 2rem;
+  padding: 0.2em;
+}
+
+button{
+  background-color: white;
+  border: none;
+  border: solid 1px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+button:hover{
+  background-color: green;
+  
+}
+
+.props{
+  margin-left:8%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family:cursive;
+  font-size: 1rem;
+  margin-top: 8px;
+  background-color: green;
+  width: 42%;
+  padding: 0.5em;
+  color: white;
+}
+
+
+
+  
+
+
